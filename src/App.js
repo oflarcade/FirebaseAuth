@@ -9,12 +9,12 @@ class App extends Component {
 
   componentWillMount() {
     firebase.initializeApp({
-    apiKey: 'AIzaSyAlMYqoMpFBbbulXWEXfIZ2-mam6rQkhrA',
-    authDomain: 'auth-bf4f5.firebaseapp.com',
-    databaseURL: 'https://auth-bf4f5.firebaseio.com',
-    projectId: 'auth-bf4f5',
-    storageBucket: 'auth-bf4f5.appspot.com',
-    messagingSenderId: '258292595627'
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '', 
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: ''
   });
 
   firebase.auth().onAuthStateChanged((user) => {
